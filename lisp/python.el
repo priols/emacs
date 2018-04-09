@@ -1,8 +1,3 @@
-(require 'elpy)
-(require 'flycheck)
-(require 'py-autopep8)
-
-
 (elpy-enable)
 (add-hook 'python-mode-hook #'python-style)
 (add-hook 'elpy-mode-hook 'flycheck-mode)
