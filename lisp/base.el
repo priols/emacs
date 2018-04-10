@@ -2,4 +2,5 @@
 (setq auto-save-default nil
       backup-inhibited t
       inhibit-startup-message t
+      dired-dwim-target t
       custom-file (expand-file-name "~/.emacs.d/custom.el"))
