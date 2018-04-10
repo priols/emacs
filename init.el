@@ -5,6 +5,7 @@
          (load (concat "~/.emacs.d/lisp/" file)))
        (mapcar 'symbol-name
                '(packages
+		 parrot
 		 base
 		 ido
 		 magit
