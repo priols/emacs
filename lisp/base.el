@@ -4,3 +4,5 @@
       inhibit-startup-message t
       dired-dwim-target t
       custom-file (expand-file-name "~/.emacs.d/custom.el"))
+
+(define-coding-system-alias 'UTF-8 'utf-8)
