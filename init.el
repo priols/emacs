@@ -10,5 +10,7 @@
 		 ido
 		 magit
 		 python
-                 theme)))
+                 theme
+		 yaml-mode
+		 groovy-mode)))
 
